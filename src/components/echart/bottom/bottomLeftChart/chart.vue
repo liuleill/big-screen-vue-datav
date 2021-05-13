@@ -45,13 +45,13 @@ export default {
               }
             }
           },
-          legend: {
-            data: ["已贯通", "计划贯通", "贯通率"],
-            textStyle: {
-              color: "#B4B4B4"
-            },
-            top: "0%"
-          },
+          // legend: {
+          //   data: ["已贯通", "计划贯通", "贯通率"],
+          //   textStyle: {
+          //     color: "#B4B4B4"
+          //   },
+          //   top: "0%"
+          // },
           grid: {
             x: "8%",
             width: "88%",
