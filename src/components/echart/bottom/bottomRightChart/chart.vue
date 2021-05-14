@@ -310,13 +310,13 @@ export default {
                 data: [
                   {
                     type: "average",
-                    name: "平均值"
+                    name: "大棚湿度值"
                   }
                 ],
                 precision: 0,
                 label: {
                   normal: {
-                    formatter: "平均值: \n {c}"
+                    formatter: "大棚湿度值: \n {c}"
                   }
                 },
                 lineStyle: {

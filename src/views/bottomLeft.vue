@@ -6,7 +6,7 @@
           <icon name="chart-bar"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">温度变化图(℃)</span>
+          <span class="fs-xl text mx-2">温度变化图(单位：℃)</span>
         </div>
       </div>
       <div>

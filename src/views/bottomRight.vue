@@ -6,7 +6,7 @@
           <icon name="chart-area"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">湿度变化统计图</span>
+          <span class="fs-xl text mx-2">湿度变化统计图（单位：%RH）</span>
           <div class="decoration2">
             <dv-decoration-2 :reverse="true" style="width:5px;height:6rem;" />
           </div>

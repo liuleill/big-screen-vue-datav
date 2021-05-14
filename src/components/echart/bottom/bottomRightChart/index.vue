@@ -55,22 +55,22 @@ export default {
 
         // 折线图数据
         this.cdata.weekMaxData.push(this.cdata.maxData);
-        let distance = Math.round(Math.random() * 11000 + 500);
+        let distance = Math.round(Math.random() * 11 + 50);
         this.cdata.weekLineData.push(distance);
 
         // 雷达图数据
         // 我的指标
         let averageSpeed = +(Math.random() * 5 + 3).toFixed(3);
         let maxSpeed = averageSpeed + +(Math.random() * 3).toFixed(2);
-        let hour = +(distance / 1000 / averageSpeed).toFixed(1);
+        let hour = +(distance / 10 / averageSpeed).toFixed(1);
         let radarDayData = [distance, averageSpeed, maxSpeed, hour];
         this.cdata.radarData.unshift(radarDayData);
 
         // 平均指标
-        let distanceAvg = Math.round(Math.random() * 8000 + 4000);
+        let distanceAvg = Math.round(Math.random() * 80 + 80);
         let averageSpeedAvg = +(Math.random() * 4 + 4).toFixed(3);
         let maxSpeedAvg = averageSpeedAvg + +(Math.random() * 2).toFixed(2);
-        let hourAvg = +(distance / 1000 / averageSpeed).toFixed(1);
+        let hourAvg = +(distance / 10 / averageSpeed).toFixed(1);
         let radarDayDataAvg = [
           distanceAvg,
           averageSpeedAvg,
