@@ -94,23 +94,23 @@ export default {
             }
           ],
           series: [
+            // {
+            //   name: "贯通率",
+            //   type: "line",
+            //   smooth: true,
+            //   showAllSymbol: true,
+            //   symbol: "emptyCircle",
+            //   symbolSize: 8,
+            //   yAxisIndex: 1,
+            //   itemStyle: {
+            //     normal: {
+            //       color: "#F02FC2"
+            //     }
+            //   },
+            //   data: newData.rateData
+            // },
             {
-              name: "贯通率",
-              type: "line",
-              smooth: true,
-              showAllSymbol: true,
-              symbol: "emptyCircle",
-              symbolSize: 8,
-              yAxisIndex: 1,
-              itemStyle: {
-                normal: {
-                  color: "#F02FC2"
-                }
-              },
-              data: newData.rateData
-            },
-            {
-              name: "已贯通",
+              name: "温度",
               type: "bar",
               barWidth: 10,
               itemStyle: {
@@ -122,7 +122,7 @@ export default {
                   ])
                 }
               },
-              data: newData.barData
+              data: newData.barData 
             },
             {
               name: "计划贯通",

@@ -15,7 +15,7 @@ export default {
         weekCategory: [],
         radarData: [],
         radarDataAvg: [],
-        maxData: 12000,
+        maxData: 100,
         weekMaxData: [],
         weekLineData: []
       }
